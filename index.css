@@ -30,3 +30,41 @@
     z-index: -1;                   /* 우선순위 */
     animation: fadeIn 0.5s linear;  /* 애니메이션이름, 지속시간, linear : 부드럽게 */
 }
+
+.js-clock {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+.js-greetings{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.js-weather {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 20px;
+}
+
+.js-toDoForm{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.js-toDoList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    
+    list-style: none;
+}
